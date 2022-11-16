@@ -33,8 +33,11 @@ Hyperparameters
  {'batch_size': 64, 'eps': '2.558405286621858e-09', 'lr': '0.00198254275850862', 'weight_decay': '0.06239842053247745'}
 
 ### Training Jobs Snapshots
-![Training Jobs]()
-
+<div align="center">
+  <a href="">
+    <img src="./snapshots/training.png" alt="training" width="600" height="auto">
+  </a>
+</div>
 
 ## Debugging and Profiling
 The debugger hook was set to track the loss metrics of the training and validation/testing jobs. The plot of cross entropy loss is shown below:
@@ -43,12 +46,18 @@ No smooth output lines -> Try different number of extra neural network layers on
 
 
 ### Processing Jobs Snapshots
-![Processing Jobs]()
-
+<div align="center">
+  <a href="">
+    <img src="./snapshots/processing.png" alt="processing" width="600" height="auto">
+  </a>
+</div>
 
 ### Debugger Plot Snapshots
-![Debugger Plot]()
-
+<div align="center">
+  <a href="">
+    <img src="./snapshots/debugger_plot.png" alt="debugger plot" width="600" height="auto">
+  </a>
+</div>
 
 ## Model Deployment
 Model was deployed to a "ml." instance type using "endpoint_inference.py" script and test using 3 images.
@@ -56,4 +65,8 @@ Model was deployed to a "ml." instance type using "endpoint_inference.py" script
 However, the model predicted only 1 image correctly.
 
 ### Deployment Snapshots
-![Deployment]()
+<div align="center">
+  <a href="">
+    <img src="./snapshots/endpoint.png" alt="endpoint" width="600" height="auto">
+  </a>
+</div>
