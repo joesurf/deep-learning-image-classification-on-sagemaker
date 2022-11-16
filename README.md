@@ -60,7 +60,7 @@ No smooth output lines -> Try different number of extra neural network layers on
 </div>
 
 ## Model Deployment
-Model was deployed to a "ml." instance type using "endpoint_inference.py" script and test using 3 images.
+Model was deployed to a "ml.m5.xlarge" instance type and tested using 3 images.
 
 However, the model predicted only 1 image correctly.
 
